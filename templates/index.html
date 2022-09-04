@@ -13,11 +13,11 @@
 
 <body>
  <div class="login">
-	<h1>Predict Iris Species</h1>
+  <h1>Predict Iris Species</h1>
 
      <!-- Main Input For Receiving Query to our ML -->
     <form action="{{ url_for('predict')}}"method="post">
-		    <input type="text" name="sepal_length" placeholder="Sepal length (cm)" required="required" />
+        <input type="text" name="sepal_length" placeholder="Sepal length (cm)" required="required" />
         <input type="text" name="sepal_width" placeholder="Sepal width (cm)" required="required" />
         <input type="text" name="petal_length" placeholder="Petal length (cm)" required="required" />
         <input type="text" name="petal_width" placeholder="Petal width (cm)" required="required" />
